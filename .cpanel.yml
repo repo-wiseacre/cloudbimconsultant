@@ -1,4 +1,5 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/public_html/
+    - export DEPLOYPATH=/home/vrww25h9acfy/public_html/
+    - /bin/cp -R /home/vrww25h9acfy/repositories/cloudbimconsultant/public_html/*.* $DEPLOYPATH
    
