@@ -2,8 +2,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/vrww25h9acfy/
     - /bin/cp -R public_html $DEPLOYPATH
-    - export DEPLOYPATH=/home/vrww25h9acfy/public_html
-    - /bin/cp -R views $DEPLOYPATH
+    - /bin/cp -R views $DEPLOYPATH/public_html
     - /bin/pwd >> /etc/logs/cpanel.log
     - export VIDEOPATH=/home/vrww25h9acfy/
     - /bin/pwd ../ >> /etc/logs/cpanel.log
