@@ -2,4 +2,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/vrww25h9acfy/
     - /bin/cp -R public_html $DEPLOYPATH
+    - export VIDEOPATH=/home/vrww25h9acfy/videos/
+    - /bin/cp -R ../videos $VIDEOPATH
+    - export IMAGEPATH=/home/vrww25h9acfy/images/
+    - /bin/cp -R ../images $IMAGEPATH
    
