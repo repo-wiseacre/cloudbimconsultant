@@ -4,7 +4,8 @@ deployment:
     - /bin/cp -R public_html $DEPLOYPATH
     - /bin/cp -R view $DEPLOYPATH/public_html
     - /bin/cp -R /home/vrww25h9acfy/repositories/videos $DEPLOYPATH/public_html
-    - /bin/cp -R ../images $DEPLOYPATH/public_html    
+    - /bin/cp -R ../images $DEPLOYPATH/public_html
+    - /bin/cp -R ../docu $DEPLOYPATH/public_html
     - /bin/pwd >> /etc/logs/cpanel.log
     
    
