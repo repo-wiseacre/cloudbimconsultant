@@ -7,5 +7,7 @@ deployment:
     - /bin/cp -R ../images $DEPLOYPATH/public_html
     - /bin/cp -R ../docu $DEPLOYPATH/public_html
     - /bin/pwd >> /etc/logs/cpanel.log
-    
+    - name: First interaction
+  uses: actions/first-interaction@v1.1.0
+
    
